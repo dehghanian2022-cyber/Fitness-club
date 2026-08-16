@@ -1,0 +1,1183 @@
+/* =========================
+        GENERAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background: linear-gradient(
+        180deg,
+        #ECECEC,
+        #E1E8D7
+    );
+
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+
+    color: #273126;
+
+}
+
+
+
+/* =========================
+        HEADER
+========================= */
+
+
+.header {
+
+    text-align: center;
+
+    padding: 50px 30px;
+
+}
+
+
+
+.logo {
+
+    font-size: 35px;
+
+    font-weight: bold;
+
+    color: #355E3B;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+.hero-title {
+
+    font-size: 95px;
+
+    color: #243020;
+
+
+    background: linear-gradient(
+        135deg,
+        #D9E8BE,
+        #A8C78A
+    );
+
+
+    padding: 40px;
+
+    width: 80%;
+
+    margin: auto;
+
+
+    border-radius: 35px;
+
+
+    box-shadow:
+
+    0 15px 35px rgba(0,0,0,.18);
+
+
+    transition: .4s ease;
+
+}
+
+
+
+.hero-title:hover {
+
+    transform: translateY(-8px);
+
+}
+
+
+
+.tagline {
+
+
+    width: 55%;
+
+
+    margin: 35px auto;
+
+
+    font-size: 35px;
+
+
+    background: rgba(255,255,255,.45);
+
+
+    padding: 20px;
+
+
+    border-radius: 40px;
+
+
+    backdrop-filter: blur(8px);
+
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.12);
+
+
+}
+
+
+
+
+
+/* =========================
+        SEARCH BOX
+========================= */
+
+
+.search-box {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin: 40px;
+
+}
+
+
+
+.search-box input {
+
+
+    width: 500px;
+
+
+    padding: 18px;
+
+
+    border: none;
+
+
+    outline: none;
+
+
+    border-radius: 40px 0 0 40px;
+
+
+    font-size: 18px;
+
+
+    background: white;
+
+
+    box-shadow:
+
+    0 10px 20px rgba(0,0,0,.15);
+
+
+}
+
+
+
+.search-box button {
+
+
+    border: none;
+
+
+    background: #78986D;
+
+
+    color: white;
+
+
+    padding: 18px 28px;
+
+
+    border-radius: 0 40px 40px 0;
+
+
+    cursor: pointer;
+
+
+    font-size: 18px;
+
+
+    transition: .3s;
+
+
+}
+
+
+
+.search-box button:hover {
+
+
+    background: #4E6545;
+
+
+    transform: scale(1.05);
+
+
+}
+
+
+
+
+/* =========================
+        NAVIGATION
+========================= */
+
+
+.nav {
+
+
+    display: flex;
+
+
+    justify-content: center;
+
+
+    gap: 25px;
+
+
+    margin: 50px 0;
+
+
+    flex-wrap: wrap;
+
+
+}
+
+
+
+.nav a {
+
+
+    background: #95AA7B;
+
+
+    color: #1B311E;
+
+
+    padding: 20px 45px;
+
+
+    border-radius: 35px;
+
+
+    text-decoration: none;
+
+
+    font-size: 24px;
+
+
+    font-weight: bold;
+
+
+    letter-spacing: 1px;
+
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.18);
+
+
+    transition: .35s ease;
+
+
+}
+
+
+
+.nav a:hover {
+
+
+    background: #6A7F5B;
+
+
+    color: white;
+
+
+    transform: translateY(-8px);
+
+
+}
+
+
+
+
+/* =========================
+            HR
+========================= */
+
+
+hr {
+
+
+    width: 85%;
+
+
+    margin: 40px auto;
+
+
+    border: none;
+
+
+    height: 3px;
+
+
+    background: linear-gradient(
+
+        to right,
+
+        transparent,
+
+        #7E936D,
+
+        transparent
+
+    );
+
+
+}
+/* =========================
+      FITNESS CLASSES
+========================= */
+
+
+#classes {
+
+    padding: 40px;
+
+}
+
+
+
+.section-title {
+
+    width: fit-content;
+
+
+    margin: 40px auto;
+
+
+    padding: 20px 50px;
+
+
+    font-size: 60px;
+
+
+    color: #355E3B;
+
+
+    background: linear-gradient(
+
+        135deg,
+
+        #DCE8C5,
+
+        #A8C78A
+
+    );
+
+
+    border-radius: 35px;
+
+
+    box-shadow:
+
+    0 15px 35px rgba(0,0,0,.15);
+
+
+    text-align: center;
+
+
+}
+
+
+
+
+.classes-container {
+
+
+    display: flex;
+
+
+    justify-content: center;
+
+
+    align-items: stretch;
+
+
+    gap: 30px;
+
+
+    flex-wrap: wrap;
+
+
+}
+
+
+
+
+.class-card {
+
+
+    width: 300px;
+
+
+    background: white;
+
+
+    padding: 25px;
+
+
+    text-align: center;
+
+
+    border-radius: 25px;
+
+
+    border: 3px solid #A8C78A;
+
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.15);
+
+
+    transition: .4s ease;
+
+
+}
+
+
+
+
+
+.class-card:hover {
+
+
+    transform: translateY(-10px) scale(1.05);
+
+
+    box-shadow:
+
+    0 25px 45px rgba(0,0,0,.25);
+
+
+}
+
+
+
+
+
+.class-card h3 {
+
+
+    color: #456339;
+
+
+    font-size: 30px;
+
+
+    margin-bottom: 15px;
+
+
+}
+
+
+
+.class-card p {
+
+
+    font-size: 18px;
+
+
+    margin: 10px;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+          TRAINERS
+========================= */
+
+
+#trainers {
+
+
+    padding: 40px;
+
+
+}
+
+
+
+
+.trainers-container {
+
+
+    display: flex;
+
+
+    justify-content: center;
+
+
+    gap: 40px;
+
+
+    flex-wrap: wrap;
+
+
+}
+
+
+
+
+.trainer-card {
+
+
+    width: 300px;
+
+
+    background: linear-gradient(
+
+        135deg,
+
+        #F5F8F1,
+
+        #DCE8C5
+
+    );
+
+
+    text-align: center;
+
+
+    padding: 30px;
+
+
+    border-radius: 30px;
+
+
+    box-shadow:
+
+    0 15px 30px rgba(0,0,0,.15);
+
+
+    transition: .4s ease;
+
+
+}
+
+
+
+
+
+.trainer-card:hover {
+
+
+    transform: translateY(-10px);
+
+
+}
+
+
+
+
+
+.trainer-card h3 {
+
+
+    color: #355E3B;
+
+
+    font-size: 35px;
+
+
+    margin-bottom: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+        TABLE
+========================= */
+
+
+
+.schedule {
+
+
+    padding: 40px;
+
+
+}
+
+
+
+
+table {
+
+
+    width: 80%;
+
+
+    margin: 40px auto;
+
+
+    border-collapse: collapse;
+
+
+    background: white;
+
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.15);
+
+
+    border-radius: 15px;
+
+
+    overflow: hidden;
+
+
+}
+
+
+
+
+th {
+
+
+    background: #9CAB84;
+
+
+    color: white;
+
+
+    padding: 18px;
+
+
+    font-size: 20px;
+
+
+}
+
+
+
+
+td {
+
+
+    padding: 15px;
+
+
+    text-align: center;
+
+
+    border: 1px solid #C5D89D;
+
+
+    font-size: 18px;
+
+
+}
+
+
+
+
+tr:nth-child(even) {
+
+
+    background: #F5F8F1;
+
+
+}
+
+
+
+
+tr:hover {
+
+
+    background: #EEF5E5;
+
+
+}
+/* =========================
+          FORM
+========================= */
+
+
+#contact {
+
+    text-align: center;
+
+    padding: 40px;
+
+}
+
+
+
+#join-form {
+
+
+    width: 500px;
+
+
+    max-width: 90%;
+
+
+    margin: 40px auto;
+
+
+    padding: 40px;
+
+
+    background: white;
+
+
+    border-radius: 30px;
+
+
+    box-shadow:
+
+    0 15px 35px rgba(0,0,0,.15);
+
+
+}
+
+
+
+
+#join-form label {
+
+
+    display: block;
+
+
+    text-align: left;
+
+
+    margin: 15px 0 5px;
+
+
+    font-size: 20px;
+
+
+    color: #355E3B;
+
+
+}
+
+
+
+
+#join-form input,
+#join-form select,
+#join-form textarea {
+
+
+    width: 100%;
+
+
+    padding: 15px;
+
+
+    border: none;
+
+
+    outline: none;
+
+
+    border-radius: 20px;
+
+
+    background: #EEF5E5;
+
+
+    font-size: 16px;
+
+
+}
+
+
+
+#join-form input:focus,
+#join-form select:focus,
+#join-form textarea:focus {
+
+
+    box-shadow:
+
+    0 0 10px rgba(120,152,109,.5);
+
+
+}
+
+
+
+#join-form textarea {
+
+
+    height: 120px;
+
+
+    resize: none;
+
+
+}
+
+
+
+
+#join-form button {
+
+
+    background: #78986D;
+
+
+    color: white;
+
+
+    border: none;
+
+
+    padding: 15px 45px;
+
+
+    border-radius: 30px;
+
+
+    font-size: 20px;
+
+
+    cursor: pointer;
+
+
+    transition: .3s ease;
+
+
+}
+
+
+
+#join-form button:hover {
+
+
+    background: #506845;
+
+
+    transform: scale(1.05);
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+             FAQ
+========================= */
+
+
+.faq {
+
+
+    padding: 40px;
+
+
+}
+
+
+
+
+.faq article {
+
+
+    background: white;
+
+
+    width: 70%;
+
+
+    margin: 25px auto;
+
+
+    padding: 25px;
+
+
+    border-radius: 25px;
+
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.12);
+
+
+    transition: .3s;
+
+
+}
+
+
+
+.faq article:hover {
+
+
+    transform: translateY(-5px);
+
+
+}
+
+
+
+
+.faq h3 {
+
+
+    color: #6A745A;
+
+
+    margin-bottom: 10px;
+
+
+}
+
+
+
+.faq p {
+
+
+    font-size: 18px;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+          FOOTER
+========================= */
+
+
+footer {
+
+
+    margin-top: 60px;
+
+
+    background: #6A745A;
+
+
+    color: white;
+
+
+    text-align: center;
+
+
+    padding: 30px;
+
+
+    font-size: 22px;
+
+
+    letter-spacing: 1px;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+        RESPONSIVE
+========================= */
+
+
+@media(max-width:700px){
+
+
+
+    .hero-title {
+
+
+        font-size: 50px;
+
+
+        width: 90%;
+
+
+        padding: 25px;
+
+
+    }
+
+
+
+
+
+    .logo {
+
+
+        font-size: 28px;
+
+
+    }
+
+
+
+
+    .tagline {
+
+
+        width: 85%;
+
+
+        font-size: 25px;
+
+
+    }
+
+
+
+
+
+    .search-box input {
+
+
+        width: 220px;
+
+
+    }
+
+
+
+
+
+    .nav {
+
+
+        gap: 15px;
+
+
+    }
+
+
+
+
+    .nav a {
+
+
+        padding: 15px 25px;
+
+
+        font-size: 18px;
+
+
+    }
+
+
+
+
+
+    .section-title {
+
+
+        font-size: 40px;
+
+
+        padding: 15px 25px;
+
+
+    }
+
+
+
+
+
+    .class-card,
+    .trainer-card {
+
+
+        width: 90%;
+
+
+    }
+
+
+
+
+
+    table {
+
+
+        width: 95%;
+
+
+        font-size: 14px;
+
+
+    }
+
+
+
+
+
+    th,
+    td {
+
+
+        padding: 10px;
+
+
+        font-size: 14px;
+
+
+    }
+
+
+
+
+
+    .faq article {
+
+
+        width: 90%;
+
+
+    }
+
+
+
+}
