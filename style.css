@@ -1181,3 +1181,331 @@ footer {
 
 
 }
+/* =========================
+        RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 700px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    /* =========================
+            HEADER
+    ========================= */
+
+    .header {
+        padding: 30px 15px;
+    }
+
+    .logo {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+
+    .hero-title {
+        width: 95%;
+        font-size: 45px;
+        line-height: 1.1;
+        padding: 25px 15px;
+    }
+
+    .tagline {
+        width: 90%;
+        font-size: 22px;
+        line-height: 1.4;
+        padding: 15px;
+        margin: 25px auto;
+    }
+
+
+    /* =========================
+            SEARCH
+    ========================= */
+
+    .search-box {
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    .search-box input {
+        width: 100%;
+        min-width: 0;
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .search-box button {
+        padding: 14px 18px;
+        font-size: 16px;
+    }
+
+
+    /* =========================
+            NAVIGATION
+    ========================= */
+
+    .nav {
+        width: 95%;
+        gap: 8px;
+        margin: 30px auto;
+    }
+
+    .nav a {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+
+    /* =========================
+            HR
+    ========================= */
+
+    hr {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+
+    /* =========================
+            SECTION TITLES
+    ========================= */
+
+    .section-title {
+        width: 90%;
+        font-size: 32px;
+        line-height: 1.2;
+        padding: 15px 20px;
+        margin: 30px auto;
+    }
+
+
+    /* =========================
+            CLASSES
+    ========================= */
+
+    #classes {
+        padding: 20px 10px;
+    }
+
+    .classes-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .class-card {
+        width: 90%;
+        max-width: 350px;
+        padding: 22px;
+    }
+
+    .class-card h3 {
+        font-size: 27px;
+    }
+
+    .class-card p {
+        font-size: 16px;
+    }
+
+
+    /* =========================
+            TRAINERS
+    ========================= */
+
+    #trainers {
+        padding: 20px 10px;
+    }
+
+    .trainers-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .trainer-card {
+        width: 90%;
+        max-width: 350px;
+        padding: 25px;
+    }
+
+    .trainer-card h3 {
+        font-size: 30px;
+    }
+
+
+    /* =========================
+            TABLE
+    ========================= */
+
+    .schedule {
+        padding: 20px 5px;
+    }
+
+    table {
+        width: 96%;
+        font-size: 12px;
+    }
+
+    th {
+        padding: 10px 4px;
+        font-size: 13px;
+    }
+
+    td {
+        padding: 9px 4px;
+        font-size: 12px;
+    }
+
+
+    /* =========================
+            FORM
+    ========================= */
+
+    #contact {
+        padding: 20px 10px;
+    }
+
+    #join-form {
+        width: 92%;
+        max-width: 400px;
+        padding: 25px 18px;
+    }
+
+    #join-form label {
+        font-size: 17px;
+    }
+
+    #join-form input,
+    #join-form select,
+    #join-form textarea {
+        width: 100%;
+        padding: 13px;
+        font-size: 15px;
+    }
+
+    #join-form button {
+        width: 100%;
+        padding: 13px;
+        font-size: 18px;
+    }
+
+
+    /* =========================
+            FAQ
+    ========================= */
+
+    .faq {
+        padding: 20px 10px;
+    }
+
+    .faq article {
+        width: 90%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .faq h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .faq p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+
+    /* =========================
+            FOOTER
+    ========================= */
+
+    footer {
+        margin-top: 40px;
+        padding: 22px 10px;
+        font-size: 17px;
+    }
+}
+
+
+/* =========================
+        SMALL PHONES
+========================= */
+
+@media (max-width: 400px) {
+
+    .hero-title {
+        font-size: 36px;
+        padding: 20px 10px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .tagline {
+        font-size: 19px;
+    }
+
+
+    /* NAV */
+
+    .nav {
+        gap: 5px;
+    }
+
+    .nav a {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+
+    /* TITLES */
+
+    .section-title {
+        font-size: 27px;
+        padding: 13px 15px;
+    }
+
+
+    /* CARDS */
+
+    .class-card,
+    .trainer-card {
+        width: 94%;
+    }
+
+
+    /* TABLE */
+
+    table {
+        width: 98%;
+    }
+
+    th,
+    td {
+        font-size: 10px;
+        padding: 7px 2px;
+    }
+
+
+    /* FORM */
+
+    #join-form {
+        width: 95%;
+        padding: 20px 12px;
+    }
+
+    #join-form label {
+        font-size: 16px;
+    }
+
+
+    /* FAQ */
+
+    .faq article {
+        width: 94%;
+    }
+}
